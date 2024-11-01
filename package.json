@@ -1,0 +1,44 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.production.js",
+    "dev": "webpack serve --config webpack.development.js",
+    "lint:ts": "eslint \"**/*.{ts,tsx}\"",
+    "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix"
+  },
+  "author": "stablerr",
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^8.12.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-check-paths-plugin": "^0.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "html-webpack-plugin": "^5.6.3",
+    "sass": "^1.80.5",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
