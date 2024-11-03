@@ -1,5 +1,20 @@
 .app {
-  background-color: gold;
-  width: 100px;
-  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 50px;
+
+  @media (max-width: 991px) {
+    padding: 50px 15px;
+  }
+}
+.appTitle {
+  color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  @media (max-width: 991px) {
+    font-size: 30px;
+  }
 }
